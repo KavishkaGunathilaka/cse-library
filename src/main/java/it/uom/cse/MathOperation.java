@@ -15,4 +15,8 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+    static int sumOfIntegers(int n){
+        return n*(n+1)/2;
+    }
+
 }
