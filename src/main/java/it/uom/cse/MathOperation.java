@@ -21,4 +21,8 @@ public class MathOperation {
             return n;
         return fib(n-1) + fib(n-2);
     }
+    static int sumOfIntegers(int n){
+        return n*(n+1)/2;
+    }
+
 }
