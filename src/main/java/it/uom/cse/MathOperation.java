@@ -15,4 +15,23 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+    public static int sumOfPrimes(int n){
+        int sum = 0;
+        boolean isPrime = true;
+        for (int i=2; i<n; i++){
+            int j=2;
+            while (j<=i/j){
+                if (i%j==0){
+                    isPrime = false;
+                    break;
+                }
+                j++;
+            }
+            if (isPrime){
+                sum += i;
+            }
+        }
+        return sum;
+    }
+
 }
