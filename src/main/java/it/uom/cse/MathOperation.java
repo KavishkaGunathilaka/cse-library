@@ -15,6 +15,10 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+    static int sumOfIntegers(int n){
+        return n*(n+1)/2;
+    }
+
     public static int sumOfPrimes(int n){
         int sum = 0;
         boolean isPrime = true;
