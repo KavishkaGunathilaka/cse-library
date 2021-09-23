@@ -25,4 +25,8 @@ public class MathOperation {
 
 
 
+    static int sumOfIntegers(int n){
+        return n*(n+1)/2;
+    }
+
 }
